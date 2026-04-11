@@ -26,3 +26,12 @@ panic behavior during a real earthquake:
 - **Rutube API** — video source
 
 ## Pipeline
+## Links
+
+- 🚀 **Kaggle Notebook (Live Demo)**: https://www.kaggle.com/code/borisdyarovoy/tron-early-earthquake-warning
+- 📄 **Technical Write-up**: See TRON_writeup.md in this repository
+
+## Author
+
+Boris Yarovoy — founder, AI integration, MCP TRON
+avatarabo@gmail.com
