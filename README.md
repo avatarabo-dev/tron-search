@@ -29,6 +29,7 @@ panic behavior during a real earthquake:
 ## Links
 
 - 🚀 **Kaggle Notebook (Live Demo)**: https://www.kaggle.com/code/borisdyarovoy/tron-early-earthquake-warning
+- 🖥️ **Demo Notebook (HTML)**: https://raw.githack.com/avatarabo-dev/tron-search/main/tron.html
 - 📄 **Technical Write-up**: See TRON_writeup.md in this repository
 
 ## Author
