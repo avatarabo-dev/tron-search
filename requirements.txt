@@ -1,0 +1,7 @@
+opencv-python
+google-generativeai
+numpy
+ffmpeg-python
+rutube
+jupyter
+youtube
