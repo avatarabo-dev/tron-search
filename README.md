@@ -97,7 +97,7 @@ No local installation required. Works entirely in the cloud.
 
 - 🚀 [Kaggle Notebook — Live Demo](https://www.kaggle.com/code/borisdyarovoy/tron-early-earthquake-warning)
 - 🖥️ [Demo (HTML preview)](https://raw.githack.com/avatarabo-dev/tron-search/main/tron.html)
-- 📄 Technical write-up: `TRON_writeup.md` in this repository
+- 📄 **[Technical write-up (full documentation)](TRON_writeup.md)**
 
 ---
 
