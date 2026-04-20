@@ -58,8 +58,6 @@ a quake, depending on species and distance from the epicenter:
 - **Horses and cows** — react 1–30 minutes before, near epicenter
 - **Fish** — react days to weeks before, up to 250+ km away
 
-![TRON System](https://raw.githubusercontent.com/avatarabo-dev/tron-search/main/images/animal_table_en.png)
-
 Key references:
 - USGS: [Animals and Earthquake Prediction](https://www.usgs.gov/programs/earthquake-hazards/animals-earthquake-prediction) — anecdotal evidence documented since 373 BC
 - Wikelski et al. (2020), *PLOS ONE* — sensor study confirming increased animal activity before tremors
