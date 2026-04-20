@@ -89,7 +89,7 @@ The connection between animal behavior and seismic events is documented across c
 - **Project "Mercury-18" (USSR KGB)** — In seismically active regions of the USSR — Kamchatka, the Caucasus, and Central Asia — bioseismological proving grounds were established as part of this classified program. Observations of various animal species were conducted and correlated with subsequent seismic events.
 The table below is compiled from archival research materials (1970s–1980s). It reflects observed reaction times of different animal species depending on their distance from the epicenter. The data are illustrative in nature and have not undergone independent validation.
 
-![Animal reaction times before earthquakes](https://github.com/avatarabo-dev/tron-search/blob/main/animal_table_en.png?raw=true)
+![Animal reaction times before earthquakes](https://raw.githubusercontent.com/avatarabo-dev/tron-search/main/animal_table_en.png)
 *Source: Mercury-18 project archives (USSR, 1970s–1980s)*
 
 - **2005, Israel** — Alexander Yagodin was granted a patent for a method of earthquake prediction based on animal behavior (Patent No. 169757).
