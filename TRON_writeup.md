@@ -13,7 +13,7 @@ Earthquakes kill thousands of people every year. In the 20th century, annual fat
 
 According to UNDRR, earthquakes account for more than 25% of all global economic losses from natural disasters — $18–27 billion in direct damage annually, not including indirect losses.
 
-Current early warning systems trigger after the shaking has already begun, providing only 10–60 seconds of reaction time. No short-term forecasting system (hours, days, or weeks ahead) currently exists.
+Current early warning systems trigger after the shaking has already begun, providing only 10–60 seconds of reaction time. No short-term forecasting system (hours, days, or weeks ahead) currently exists. Until now, any attempt to use animal behavior as a signal required constant human observation — making large-scale automated monitoring impossible.
 
 ---
 
@@ -25,19 +25,31 @@ Current early warning systems trigger after the shaking has already begun, provi
 
 ## Key Discovery
 
-During development, I found that **static single-frame analysis does not work — dynamic multi-frame analysis does**.
+## The Barrier That Gemma 4 Removed
 
-Analyzing a single frame, the model cannot reliably detect behavioral anomalies. Panic can look like normal activity; calmness can look like freezing — and vice versa. Only by tracking **behavioral change over time** can a relevant result be obtained.
+Analyzing animal behavior for earthquake prediction is not a new idea.
+The scientific community has known for decades that single-frame image
+analysis is insufficient — behavior must be tracked over time, as a
+dynamic sequence, not a static snapshot.
 
-Example from real footage of elephants during an earthquake:
+This is similar to financial accounting: a single balance sheet shows
+the current state of a company, but without the profit and loss
+statement — which shows dynamics over time — you cannot understand
+what is really happening.
 
-| Frames | Behavior | Status |
-|--------|----------|--------|
-| 1–2 | Group dispersed, calm movement | 🟢 NORMAL |
-| 3–4 | Animals moving closer together | 🟡 SUSPICIOUS |
-| 5–6 | Tight protective circle formed | 🔴 ANOMALY |
+The real barrier was never the idea. The barrier was the tool.
 
-Only by seeing the sequence can you distinguish alarm from normal activity.
+**Gemma 3 could not analyze video. Gemma 4 can.**
+
+This single capability shift makes it possible, for the first time, to
+build a fully automated system — one that monitors animal behavior
+continuously, without requiring human observers to watch and interpret
+footage around the clock.
+
+Before Gemma 4: the system required active human participation at every
+step. After Gemma 4: the system can operate autonomously.
+
+This is why TRON exists now, and not ten years ago.
 
 ---
 
@@ -69,6 +81,11 @@ The prototype runs entirely in the cloud (Kaggle Notebook). It requires no label
 ---
 
 ## Why Gemma 4
+
+The critical distinction is this: Gemma 3 was not capable of video
+analysis. Gemma 4 is. This is not a minor upgrade — it is the
+capability that makes the entire TRON concept technically feasible
+as an automated system.
 
 I learned about the Gemma 4 Good Hackathon on April 1st — one day before Telegram was blocked in Russia. I asked my assistants (ChatGPT, Claude, DeepSeek, Gemini) whether we should participate with the TRON project. All of them, independently, recommended joining. Their reasoning: Gemma 4 is a multimodal language model capable of zero-shot operation (no training required). It works with any animal — including aquarium fish, reptiles, and amphibians, which are believed to be among the most seismically sensitive.
 
