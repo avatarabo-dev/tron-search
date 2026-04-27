@@ -1,7 +1,7 @@
-# TRON: An Earthquake Early Warning System Using Animal Behavior
+# TRON: Short-Term Earthquake Forecasting System
 
 **Author:** Boris Yarovoy  
-**Project:** TRON (Earthquake Early Warning System)  
+**Project:** TRON (Short-Term Earthquake Forecasting System)  
 **Track:** Global Resilience  
 **Hackathon:** Gemma 4 Good Hackathon (Kaggle)  
 
