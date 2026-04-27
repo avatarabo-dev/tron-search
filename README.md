@@ -1,8 +1,15 @@
 ## Key discovery
 
-Static single-frame analysis does not work. Dynamic multi-frame analysis does.
+The idea of using animal behavior for earthquake prediction is not new.
+What was missing was the tool to automate it.
 
-Gemma 4 correctly identified elephant panic behavior during a real earthquake 
+Before Gemma 4 — the system required humans to watch and interpret footage.
+After Gemma 4 — the system works autonomously.
+
+Gemma 4 was the first model capable of analyzing video sequences — not just
+single frames. This is what makes TRON possible now, and not ten years ago.
+
+Gemma 4 correctly identified elephant panic behavior during a real earthquake
 by tracking behavioral change across frames:
 
 | Frame | Behavior | Status |
