@@ -1,3 +1,20 @@
+# TRON: earthquake forecasting from animal behavior using video AI
+
+> TRON (Technology Real-time Online Nucleus) is a technology idea for short-term earthquake forecasting based on animal behavior, developed since 2011 by Boris D. Yarovoy. This repository contains the Gemma 4 automation experiment: a pipeline that analyzes animal-behavior video with no human in the chain.
+
+**Project site:** https://www.tron.ru/
+**Funding proposal (about EUR 200,000 for a 6-month validation):** https://www.tron.ru/2026/09/invest-ai-project-global.html
+**Contact:** avatarabo@gmail.com
+
+## Status (October 2026)
+
+- The hypothesis that animal behavior carries information about an upcoming earthquake has **not been statistically validated**. Forecast accuracy has not been measured.
+- What exists: a working video-analysis pipeline (video, frames, Gemma 4, verdict) tested on three clips. It shows the chain can run without humans, not that it forecasts earthquakes.
+- What does not exist: a system where volunteers submit animal observations, and a live monitoring network.
+- Next step: a pilot validation in a seismically active zone, with forecasts published before events and checked against an earthquake catalog.
+
+---
+
 ## Key discovery
 
 The idea of using animal behavior for earthquake prediction is not new.
@@ -22,13 +39,14 @@ by tracking behavioral change across frames:
 
 ## Test results
 
-| Animal | Source | TRON result | Confidence | Notes |
-|--------|--------|-------------|------------|-------|
+| Animal | Source | TRON result | Model-reported confidence | Notes |
+|--------|--------|-------------|---------------------------|-------|
 | 🐘 Elephants | Rutube | 🔴 ANOMALY | high | Real earthquake archive footage |
 | 🐱 Cat | Rutube | 🟢 NORMAL | 1.0 | Calm daily behavior |
 | 🐻 Bear | YouTube | 🔴 ANOMALY | 1.0 | Erratic movement + camera shaking |
 
-**3 out of 3 correct detections (100%)**
+**3 of 3 test clips were classified as expected.**
+This is a demonstration on three clips, not a statistical evaluation: accuracy has not been measured, and the confidence values are reported by the model itself.
 Both video platforms confirmed working: Rutube and YouTube.
 
 ---
@@ -53,13 +71,16 @@ That is not prediction — that is observation.
 
 One camera sees nothing. A thousand cameras see the future.
 
-This prototype proves that Gemma 4 can correctly classify animal behavior
-from video. The next step is scale.
+This prototype shows that Gemma 4 can classify animal behavior
+from video. Whether the behavior predicts earthquakes is the question
+the proposed pilot is designed to answer. The next step is scale.
 
 ## Scientific basis
 
-Research shows animals react to seismic precursors minutes to weeks before 
-a quake, depending on species and distance from the epicenter:
+Reports suggest animals may react to seismic precursors minutes to weeks before
+a quake, depending on species and distance from the epicenter. The time windows
+below come from historical observation tables (for example, the Soviet "Mercury-18"
+project) and have not been confirmed by controlled studies:
 
 - **Cats and dogs** — react 10 minutes to 4 hours before, within 100 km
 - **Horses and cows** — react 1–30 minutes before, near epicenter
@@ -67,13 +88,13 @@ a quake, depending on species and distance from the epicenter:
 
 Key references:
 - USGS: [Animals and Earthquake Prediction](https://www.usgs.gov/programs/earthquake-hazards/animals-earthquake-prediction) — anecdotal evidence documented since 373 BC
-- Wikelski et al. (2020), *PLOS ONE* — sensor study confirming increased animal activity before tremors
-- Woith et al. (2018), *Bulletin of the Seismological Society* — statistical analysis of 700+ reports
+- Wikelski et al. (2020) — sensor study of farm animals reporting increased activity before tremors
+- Woith et al. (2018), *Bulletin of the Seismological Society of America* — review of 700+ reports
 
-> **Note on Woith et al.:** Their study found that single anecdotal observations 
-> are statistically unreliable. TRON addresses exactly this problem — by automating 
-> monitoring across multiple sources simultaneously rather than relying on 
-> individual reports.
+> **Note on Woith et al.:** Their review found that most anecdotal reports
+> could not be evaluated statistically. TRON aims to address exactly this problem —
+> by automating monitoring across multiple sources simultaneously rather than
+> relying on individual reports.
 
 ---
 
@@ -100,6 +121,8 @@ No local installation required. Works entirely in the cloud.
 
 ## Links
 
+- 🌐 [Project site (tron.ru)](https://www.tron.ru/)
+- 💶 [Funding proposal: EUR 200,000 for validation](https://www.tron.ru/2026/09/invest-ai-project-global.html)
 - 🚀 [Kaggle Notebook — Live Demo](https://www.kaggle.com/code/borisdyarovoy/tron-early-earthquake-warning)
 - 🖥️ [Demo (HTML preview)](https://raw.githack.com/avatarabo-dev/tron-search/main/tron.html)
 - 📄 **[Technical write-up (full documentation)](TRON_writeup.md)**
@@ -110,5 +133,4 @@ No local installation required. Works entirely in the cloud.
 
 **Boris Yarovoy** — founder, AI integration  
 avatarabo@gmail.com  
-Russia, 2026---
-
+Russia, 2026
